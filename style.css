@@ -1,13 +1,10 @@
-/*background color B29800
-  paragraph color: FFEC7E
-  heading text: 1000B2
-*/
+
 body
 {
 	color: black;
 	background-color: tan;
 	font-size: 12pt;
-	font-family: Calibri, Cambria, Arial, Times New Roman
+	font-family: Calibri, Cambria, Arial;
 	text-align: left;
 }
 
@@ -19,17 +16,33 @@ h2 { font-weight: bold; color: yellow; text-align: center;}
 
 h3 { font-weight: bold; color: yellow; text-align: center;}
 
-.centerImage {text-align: center; display: block;}
+.centerImage {text-align: center;
+			  display: block; 
+			  color: yellow;
+			  padding-left: 20px ;
+			  padding-right: 20px ;}
 
 .centerText {text-align: center;}
 
-.JD {background-color: yellow;}
+.Integra {background-color: white;
+		  margin-left: auto ;
+		  margin-right: auto ;
+		  padding-top: 5px;
+		  padding-right: 5px;
+		  padding-bottom: 1px;
+		  padding-left: 5px;}
+
+.JD {background-color: yellow;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;}
 
 .resumeHeader {text-align:left; color: yellow; font-style: italic; text-decoration: underline;}
 
 .centerDiv {
 	width: 75% ;
-	text-align: leftwards;
+	text-align: left;
 	margin-left: auto ;
 	margin-right: auto ;
 	background-color: green;
@@ -41,3 +54,4 @@ h3 { font-weight: bold; color: yellow; text-align: center;}
 .pictureBorder {
 	color: yellow;
 }
+
